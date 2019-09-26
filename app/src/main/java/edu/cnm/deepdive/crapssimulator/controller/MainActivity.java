@@ -15,12 +15,16 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
   private Game game;
   private Random rng;
   private RoundAdapter adapter;
   private TextView tally;
   private ListView rolls;
   private boolean running;
+
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
   }
 
   private class Runner extends Thread {
+
+
 
     @Override
     public void run() {
